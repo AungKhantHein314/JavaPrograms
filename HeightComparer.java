@@ -23,7 +23,7 @@ public class HeightComparer {
 
 		System.out.print("Person Two: ");
 		double p2 = Double.parseDouble(sc.nextLine());
-		
+		sc.close();
 		output(p1, p2);
 	}
 

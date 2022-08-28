@@ -29,10 +29,9 @@ class SearchUniqueNo {
 	}
 
 	void checkIfNums(String[] args) {
-		double j = 0;
 		try {
 			for(int i = 0; i < 5; i++){
-				j = Double.parseDouble(args[i]);
+				Double.parseDouble(args[i]);
 			}
 		} catch (Exception e) {
 			System.out.println("Please input 5 numbers");

@@ -8,7 +8,7 @@ public class LoginSystem {
 	}
 	
 	public static void main(String [] args) {
-		LoginSystem ls = new LoginSystem(args[0], args[1]);	
+		new LoginSystem(args[0], args[1]);	
 	}
 
 	void output(String userName, String userPassword) {
