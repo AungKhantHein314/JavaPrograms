@@ -1,5 +1,21 @@
 import java.util.Scanner;
 
+class Person {
+	private String name;
+	private String salary;
+	private String role;
+
+	Person(String name, String salary, String role) {
+		this.name = name;
+		this.salary = salary;
+		this.role = role;
+	}
+
+	void display(int id) {
+		System.out.printf("%-8s%-25s%-10s%-10s", (id + 1), this.name, this.salary, this.role);
+	}
+}
+
 public class DataEntry {
 	int i;
 	Person[] people = new Person[5];
@@ -63,18 +79,3 @@ public class DataEntry {
 	}
 }
 
-class Person {
-	private String name;
-	private String salary;
-	private String role;
-
-	Person(String name, String salary, String role) {
-		this.name = name;
-		this.salary = salary;
-		this.role = role;
-	}
-
-	void display(int id) {
-		System.out.printf("%-8s%-25s%-10s%-10s", (id + 1), this.name, this.salary, this.role);
-	}
-}

@@ -12,7 +12,7 @@ public class Calculator {
         calculate(this.num1, this.num2);
     }
 
-    public static strictfp void main(String[] args) {
+    public static void main(String[] args) {
         try {
             new BigDecimal(args[0]);
             new BigDecimal(args[args.length-1]);
